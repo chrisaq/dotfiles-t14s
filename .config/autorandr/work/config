@@ -11,9 +11,10 @@ off
 output DisplayPort-5
 off
 output DisplayPort-1
-crtc 1
+crtc 0
 mode 3440x1440
 pos 0x0
+primary
 rate 59.97
 x-prop-colorspace Default
 x-prop-max_bpc 16
@@ -24,10 +25,9 @@ x-prop-underscan off
 x-prop-underscan_hborder 0
 x-prop-underscan_vborder 0
 output eDP
-crtc 0
+crtc 1
 mode 1920x1200
-pos 3440x0
-primary
+pos 3440x240
 rate 60.00
 x-prop-colorspace Default
 x-prop-max_bpc 16
